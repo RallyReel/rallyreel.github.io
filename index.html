@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RallyReel: table tennis matches, cut down to the points</title>
+<meta name="description" content="Record table tennis matches on your iPhone, score from your Apple Watch or another phone, and get full match and highlights reels with the score on screen.">
+<meta property="og:title" content="RallyReel">
+<meta property="og:description" content="Table tennis matches, cut down to the points.">
+<meta property="og:image" content="https://rallyreel.net/assets/og-image.png">
+<meta property="og:url" content="https://rallyreel.net/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/assets/rallyreel-logo.png" alt=""><span>RallyReel</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="/guide/">Guide</a>
+      <a href="/support/">Support</a>
+      <a class="hide-small" href="/privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Your table tennis matches, cut down to the points.</h1>
+        <p class="lead">Record a match on your iPhone, tap who won each point from your Apple Watch or another phone, and RallyReel trims away the ball-fetching and the walking back. You get a full match reel and a highlights reel, with the score on screen.</p>
+        <div class="actions">
+          <!-- Replace with your TestFlight public link once Beta App Review approves the first build -->
+          <a class="button" href="https://testflight.apple.com/join/REPLACE-ME">Join the beta</a>
+          <a class="button quiet" href="/guide/">Read the guide</a>
+        </div>
+        <div class="scoreboard" role="img" aria-label="Example scoreboard: Alex 2 games, 10 points; Sam 1 game, 8 points">
+          <span class="player"><span class="chip" style="background:#E90504"></span>Alex<span class="serve on" id="serve-a"></span></span>
+          <span class="games">2</span>
+          <span class="points" id="pts-a">9</span>
+          <span class="player"><span class="chip" style="background:#0A84FF"></span>Sam<span class="serve" id="serve-b"></span></span>
+          <span class="games">1</span>
+          <span class="points">8</span>
+        </div>
+        <span class="scoreboard-caption">The scoreboard on every RallyReel video.</span>
+      </div>
+      <img class="logo" src="/assets/rallyreel-logo.png" alt="RallyReel logo: a red table tennis paddle and a ball">
+    </div>
+  </section>
+
+  <section class="block" id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Set up the camera</h3>
+          <p>Put your iPhone on a tripod behind your end of the table, high enough to see all four corners of the table.</p>
+        </li>
+        <li>
+          <h3>Score each point</h3>
+          <p>Tap who won on your Apple Watch, or let a friend score from their phone. No Wi-Fi needed.</p>
+        </li>
+        <li>
+          <h3>Make a reel</h3>
+          <p>One tap builds the full match or just your ★ points, ready to share or save to Photos.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="block" id="features">
+    <div class="wrap">
+      <h2>What you get</h2>
+      <div class="features">
+        <div><h3>Clips that start at the serve</h3><p>RallyReel follows the ball to find where each point begins, and flags the few it isn't sure about so you can check them in seconds.</p></div>
+        <div><h3>Broadcast-style graphics</h3><p>Player names at each end, a live scoreboard, and a match summary when it's over.</p></div>
+        <div><h3>Highlights across matches</h3><p>Pick your best points from a week or a whole season and build one reel.</p></div>
+        <div><h3>Your stats</h3><p>Your record against each opponent, your form, and where your serves land.</p></div>
+        <div><h3>Scoring without Wi-Fi</h3><p>A second iPhone connects straight to the camera iPhone. Any other phone can score from its web browser.</p></div>
+        <div><h3>Ready by morning</h3><p>Plug your iPhone in overnight and RallyReel finds the point starts and builds the reels while it charges.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block band" id="privacy">
+    <div class="wrap">
+      <h2>Your matches stay on your iPhone</h2>
+      <p>RallyReel has no accounts and no analytics. Your videos, scores and stats never leave your phone unless you share them yourself. <a href="/privacy/">Read the privacy policy</a>.</p>
+    </div>
+  </section>
+
+  <section class="block" id="beta">
+    <div class="wrap">
+      <h2>Try it with your club</h2>
+      <p style="max-width:60ch">RallyReel is in beta through TestFlight, Apple's app for trying new apps before they reach the App Store. Open the link on your iPhone, install TestFlight if asked, then tap Install. It's free.</p>
+      <p style="max-width:60ch">You'll need an iPhone with iOS 17 or later. An Apple Watch is optional: a second phone can do the scoring instead.</p>
+      <a class="button" href="https://testflight.apple.com/join/REPLACE-ME">Join the beta on TestFlight</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 RallyReel</span>
+    <nav aria-label="Footer">
+      <a href="/guide/">User guide</a>
+      <a href="/support/">Support</a>
+      <a href="/privacy/">Privacy policy</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // One moment: Alex wins the point, like the scoreboard on a reel. Skipped when reduced motion is on.
+  (function () {
+    var pts = document.getElementById("pts-a");
+    if (!pts || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      if (pts) { pts.textContent = "10"; pts.classList.add("won"); }
+      return;
+    }
+    setTimeout(function () {
+      pts.textContent = "10";
+      pts.classList.add("won");
+      setTimeout(function () { pts.classList.remove("won"); }, 1500);
+    }, 1400);
+  })();
+</script>
+</body>
+</html>
